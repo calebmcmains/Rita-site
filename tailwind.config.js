@@ -6,6 +6,13 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    gridTemplateRows: {
+      32: "repeat(32, minmax(0, 1fr))",
+    },
+    gridTemplateColumns: {
+      64: "repeat(64, minmax(0, 1fr))",
+    },
+
     letterSpacing: {
       tightest: "-.075em",
       tighter: "-.05em",
@@ -16,6 +23,44 @@ export default {
       widest: ".25em",
     },
     extend: {
+      gridColumn: {
+        "span-44": "span 44 / span 44",
+      },
+      gridColumnStart: {
+        13: "13",
+        14: "14",
+        15: "15",
+        16: "16",
+        17: "17",
+        35: "35",
+        40: "40",
+        44: "44",
+        64: "64",
+      },
+      gridColumnEnd: {
+        13: "13",
+        14: "14",
+        15: "15",
+        16: "16",
+        17: "17",
+        35: "35",
+        40: "40",
+        44: "44",
+        56: "56",
+        64: "64",
+      },
+      gridRowEnd: {
+        13: "13",
+        14: "14",
+        15: "15",
+        16: "16",
+        17: "17",
+        22: "22",
+        23: "23",
+        24: "24",
+        25: "25",
+        32: "32",
+      },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         sans2: ["Poppins", ...defaultTheme.fontFamily.sans],
@@ -38,6 +83,9 @@ export default {
           pipe: "#1E5DFC",
           chocolate: "#261E16",
           "soft-lime": "#D9FA98",
+        },
+        neutral: {
+          "soft-white": "#FAFAFA",
         },
       },
     },
