@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +39,7 @@ export default function Home() {
             <div className="grid-cols-64 grid-row-12 sm:grid-rows-auto container mx-auto grid gap-y-8 px-8">
               <div className="bg-neutral-soft-white sm:col-end-44 sm:row-end-23 col-span-full rounded-2xl p-12 text-center sm:col-start-1 sm:row-start-6 ">
                 <h2 className="font-sans2 tracking-tightest -mb-4 text-4xl font-semibold lowercase lg:-mb-6">
-                  I'm rita!
+                  I&apos;m rita!
                 </h2>
                 <h3 className="mb-8 font-serif text-xl md:text-xl lg:text-3xl">
                   Projecty manager and creative
