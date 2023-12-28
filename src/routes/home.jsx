@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
+import TypeIt from "typeit-react";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,17 +23,16 @@ export default function Home() {
             <h1 className=" mb-10 text-5xl lowercase tracking-tighter">
               Welcome.
             </h1>
+
             <div>
-              <p className="tracking-tightest text-3xl">
+              <TypeIt className="tracking-tightest text-3xl">
                 arizona <span className="font-serif font-normal">based.</span>
-              </p>
-              <p className="tracking-tightest text-3xl">
+                <br />
                 worldwide <span className="font-serif font-normal">reach.</span>
-              </p>
-              <p className="tracking-tightest text-3xl">
+                <br />
                 creative to the{" "}
                 <span className="font-serif font-normal">core.</span>
-              </p>
+              </TypeIt>
             </div>
           </section>
           <section className=" bg-primary-soft-lime w-full py-36">
