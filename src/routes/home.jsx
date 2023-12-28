@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import TypeIt from "typeit-react";
+import Hero from "../components/Hero";
+
+import rita1URL from "../assets/rita-1.jpg";
+import rita2URL from "../assets/rita-2.jpg";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,35 +21,12 @@ export default function Home() {
       >
         <Navbar isOpen={isOpen} toggleMenu={toggleMenu} />
 
-        <main className="">
-          <section className="font-sans2 container mx-auto flex flex-col items-center pb-44 pt-24 text-center font-semibold">
-            <h1 className=" mb-10 text-5xl lowercase tracking-tighter">
-              Welcome.
-            </h1>
+        <main>
+          <Hero />
 
-            <div>
-              <TypeIt
-                className="tracking-tightest text-3xl"
-                options={{
-                  afterComplete: function (instance) {
-                    setTimeout(() => {
-                      instance.destroy();
-                    }, 3000);
-                  },
-                }}
-              >
-                arizona <span className="font-serif font-normal">based.</span>
-                <br />
-                worldwide <span className="font-serif font-normal">reach.</span>
-                <br />
-                creative to the{" "}
-                <span className="font-serif font-normal">core.</span>
-              </TypeIt>
-            </div>
-          </section>
           <section className=" bg-primary-soft-lime w-full py-36">
-            <div className="grid-cols-64 grid-row-12 sm:grid-rows-auto container mx-auto grid gap-y-8 px-8">
-              <div className="bg-neutral-soft-white sm:col-end-44 sm:row-end-23 col-span-full rounded-2xl p-12 text-center sm:col-start-1 sm:row-start-6 ">
+            <div className="md:grid-cols-64 md:grid-row-12 md:grid-rows-auto container relative mx-auto flex grid-flow-row flex-col gap-y-8 px-8 md:grid">
+              <div className="bg-neutral-soft-white md:col-end-44 md:row-end-22 order-2 rounded-2xl p-12 text-center md:order-1 md:col-span-full md:col-start-1 md:row-start-6 ">
                 <h2 className="font-sans2 tracking-tightest -mb-4 text-4xl font-semibold lowercase lg:-mb-6">
                   I&apos;m rita!
                 </h2>
@@ -68,8 +48,34 @@ export default function Home() {
                   voluptatum!
                 </p>
               </div>
-              <div className="bg-neutral-soft-white sm:row-end-22 sm:col-start-40 sm:col-end-64 col-span-full row-start-1 h-[30rem] rounded-2xl sm:row-start-1">
-                {/* <img className="bg-neutral-soft-white" src="" alt="" /> */}
+              <div className="bg-neutral-soft-white md:row-end-22 md:col-start-44 md:col-end-65 order-1 flex h-96 w-5/6 rounded-2xl object-cover p-8 md:order-2 md:col-span-full md:row-start-1 md:h-4/5 md:w-auto md:rounded-bl-none">
+                <img
+                  className="w-full rounded-2xl object-cover"
+                  src={rita1URL}
+                  alt=""
+                />
+              </div>
+              <div className=" bg-primary-pipe order-3 flex h-96 w-5/6 self-end rounded-2xl object-cover p-8 md:absolute md:-bottom-[220px] md:right-24 md:w-[200px] lg:-bottom-[190px] lg:right-32 lg:w-72 xl:-bottom-[300px] xl:right-28 xl:h-[450px] xl:w-[400px] 2xl:-bottom-[360px] 2xl:right-32 2xl:h-[500px] 2xl:w-[450px]">
+                <img
+                  className="w-full rounded-2xl object-cover"
+                  src={rita2URL}
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+          <section className="py-36">
+            <div className="container mx-auto xl:mt-36 2xl:mt-44 ">
+              <h2 className="text-center font-serif text-3xl font-semibold lowercase">
+                Here&apos;s what i&apos;m all about
+              </h2>
+              <div className="grid grid-cols-3 justify-items-center  gap-4">
+                <div className="h-96 w-96 bg-slate-600">1</div>
+                <div className="h-96 w-96 bg-slate-600">2</div>
+                <div className="h-96 w-96 bg-slate-600">3</div>
+                <div className="h-96 w-96 bg-slate-600">4</div>
+                <div className="h-96 w-96 bg-slate-600">5</div>
+                <div className="h-96 w-96 bg-slate-600">6</div>
               </div>
             </div>
           </section>

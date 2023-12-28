@@ -6,13 +6,6 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    gridTemplateRows: {
-      32: "repeat(32, minmax(0, 1fr))",
-    },
-    gridTemplateColumns: {
-      64: "repeat(64, minmax(0, 1fr))",
-    },
-
     letterSpacing: {
       tightest: "-.075em",
       tighter: "-.05em",
@@ -23,6 +16,12 @@ export default {
       widest: ".25em",
     },
     extend: {
+      gridTemplateRows: {
+        32: "repeat(32, minmax(0, 1fr))",
+      },
+      gridTemplateColumns: {
+        64: "repeat(64, minmax(0, 1fr))",
+      },
       gridColumn: {
         "span-44": "span 44 / span 44",
       },
