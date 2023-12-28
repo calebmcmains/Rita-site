@@ -25,7 +25,16 @@ export default function Home() {
             </h1>
 
             <div>
-              <TypeIt className="tracking-tightest text-3xl">
+              <TypeIt
+                className="tracking-tightest text-3xl"
+                options={{
+                  afterComplete: function (instance) {
+                    setTimeout(() => {
+                      instance.destroy();
+                    }, 3000);
+                  },
+                }}
+              >
                 arizona <span className="font-serif font-normal">based.</span>
                 <br />
                 worldwide <span className="font-serif font-normal">reach.</span>
