@@ -10,6 +10,7 @@ function Hero() {
           <TypeIt
             className="tracking-tightest text-3xl"
             options={{
+              speed: 75,
               afterComplete: function (instance) {
                 setTimeout(() => {
                   instance.destroy();
