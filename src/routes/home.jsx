@@ -19,8 +19,11 @@ export default function Home() {
             </a>
           </div>
           <nav
-            className={`absolute left-0 top-0 ml-auto w-full translate-x-full self-start bg-[rgba(250,250,250,.9)] pr-4 pt-8 uppercase backdrop-blur transition-all duration-300 sm:translate-x-0 sm:transition-none ${
-              isOpen ? "translate-x-0 transition-all duration-300" : ""
+            className={`absolute left-0 top-0 ml-auto w-full self-start bg-[rgba(250,250,250,.9)] pr-4 pt-8 uppercase backdrop-blur transition-all duration-300 sm:translate-x-0 sm:transition-none 
+            ${
+              isOpen
+                ? "translate-x-0"
+                : "pointer-events-none invisible translate-x-full opacity-0"
             } sm:pointer-events-auto sm:visible sm:static sm:left-auto sm:top-auto sm:flex sm:w-auto sm:bg-inherit sm:opacity-100`}
           >
             <ul
