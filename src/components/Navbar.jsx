@@ -2,7 +2,7 @@
 export default function Navbar({ isOpen, toggleMenu }) {
   return (
     <>
-      <header className="sticky  w-full bg-[rgba(250,250,250,1)] px-4">
+      <header className="sticky w-full bg-[rgba(250,250,250,1)] px-4">
         <div className="text-primary-chocolate  mx-auto flex max-w-screen-2xl items-center">
           <div className="z-50">
             <a href={`/`}>

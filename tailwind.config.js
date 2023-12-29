@@ -12,7 +12,7 @@ export default {
       tight: "-.025em",
       normal: "0",
       wide: ".025em",
-      wider: ".05em",
+      wider: ".1em",
       widest: ".25em",
     },
     extend: {
@@ -85,6 +85,13 @@ export default {
         },
         neutral: {
           "soft-white": "#FAFAFA",
+        },
+        secondary: {
+          red: "#E26E21",
+          yellow: "#C9E33C",
+          tan: "#F4DBBA",
+          "light-green": "#DFEBE8",
+          "light-blue": "#D7C6D9",
         },
       },
     },

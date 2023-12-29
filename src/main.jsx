@@ -26,6 +26,11 @@ const router = createBrowserRouter([
     path: "portfolio",
     element: <Portfolio />,
   },
+  {
+    path: "*",
+    element: <ErrorPage />,
+    errorElement: <ErrorPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
