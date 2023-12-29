@@ -36,7 +36,7 @@ export default function Home() {
           <script async src="//www.instagram.com/embed.js"></script>
         </Helmet>
         <div
-          className={`text-primary-chocolate mx-auto max-w-full ${
+          className={`mx-auto max-w-full text-primary-chocolate ${
             isOpen ? "h-svh overflow-hidden" : "overflow-x-hidden"
           }`}
         >
@@ -57,7 +57,7 @@ export default function Home() {
                     className="grid items-center justify-items-center gap-x-4 gap-y-16"
                   >
                     <div className="flex w-5/6 flex-col justify-start ">
-                      <div className="bg-secondary-red mb-8 flex h-72 w-full items-center justify-center rounded-2xl">
+                      <div className="mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-secondary-red">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -82,7 +82,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="flex w-5/6 flex-col justify-start ">
-                      <div className="bg-secondary-yellow mb-8 flex h-72 w-full items-center justify-center rounded-2xl">
+                      <div className="mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-secondary-yellow">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -107,7 +107,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="flex w-5/6 flex-col justify-start ">
-                      <div className=" bg-secondary-tan mb-8 flex h-72 w-full items-center justify-center rounded-2xl">
+                      <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-secondary-tan">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -133,7 +133,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex w-5/6 flex-col justify-start ">
-                      <div className=" bg-secondary-light-green mb-8 flex h-72 w-full items-center justify-center rounded-2xl ">
+                      <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-secondary-light-green ">
                         <div className="grid items-center justify-center gap-4">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="flex w-5/6 flex-col justify-start ">
-                      <div className=" bg-secondary-light-blue mb-8 flex h-72 w-full items-center justify-center rounded-2xl">
+                      <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-secondary-light-blue">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -196,14 +196,14 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="flex w-5/6 flex-col justify-start ">
-                      <div className=" bg-primary-chocolate mb-8 flex h-72 w-full items-center justify-center rounded-2xl">
+                      <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-primary-chocolate">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           strokeWidth={1.5}
                           stroke="currentColor"
-                          className="stroke-neutral-soft-white h-36 w-36"
+                          className="h-36 w-36 stroke-neutral-soft-white"
                         >
                           <path
                             strokeLinecap="square"
@@ -223,11 +223,11 @@ export default function Home() {
               </div>
             </section>
 
-            <section className="bg-primary-chocolate w-full pb-36">
-              <h2 className="text-primary-chocolate bg-neutral-soft-white mb-96 pb-12 text-center font-serif text-3xl font-semibold lowercase">
+            <section className="w-full bg-primary-chocolate pb-36">
+              <h2 className="mb-96 bg-neutral-soft-white pb-12 text-center font-serif text-3xl font-semibold lowercase text-primary-chocolate">
                 Check out some of my favs!
               </h2>
-              <div className="text-neutral-soft-white container mx-auto"></div>
+              <div className="container mx-auto text-neutral-soft-white"></div>
             </section>
           </main>
           <footer className="pb-16 pt-36">
@@ -237,20 +237,20 @@ export default function Home() {
                   <span className="mb-4 font-serif text-lg  uppercase tracking-wider sm:text-xl">
                     currently vibing to:
                   </span>
-                  <div className="bg-primary-soft-lime w-full rounded-2xl p-8">
+                  <div className="w-full rounded-2xl bg-primary-soft-lime p-8">
                     <div id="embed-iframe"></div>
                   </div>
                 </div>
                 <div className="row-start-1 w-full xl:col-start-2 ">
-                  <h2 className="font-sans2 mb-10 text-center text-3xl font-semibold lowercase sm:text-5xl">
+                  <h2 className="mb-10 text-center font-sans2 text-3xl font-semibold lowercase sm:text-5xl">
                     Connect!
                   </h2>
                   <div className="flex flex-col items-center font-serif">
                     <span className="mb-4 font-serif text-lg uppercase tracking-wider sm:text-xl">
                       let&apos;s keep in touch
                     </span>
-                    <div className="bg-primary-soft-lime w-full rounded-2xl p-8 text-center text-lg">
-                      <span className="bg-primary-chocolate text-neutral-soft-white mb-4 block rounded-lg px-2 py-4 uppercase">
+                    <div className="w-full rounded-2xl bg-primary-soft-lime p-8 text-center text-lg">
+                      <span className="mb-4 block rounded-lg bg-primary-chocolate px-2 py-4 uppercase text-neutral-soft-white">
                         work with me
                       </span>
                       <div className="mb-4">
@@ -269,7 +269,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className=" bg-primary-soft-lime flex w-full items-center justify-center rounded-2xl pb-6 pt-8 max-[420px]:hidden md:row-span-2 md:h-full xl:row-auto">
+                <div className=" flex w-full items-center justify-center rounded-2xl bg-primary-soft-lime pb-6 pt-8 max-[420px]:hidden md:row-span-2 md:h-full xl:row-auto">
                   <blockquote
                     className="instagram-media"
                     data-instgrm-permalink="https://www.instagram.com/rita.kibaki/?utm_source=ig_embed&utm_campaign=loading"
