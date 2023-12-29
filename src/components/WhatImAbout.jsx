@@ -10,6 +10,7 @@ function WhatImAbout() {
           </h2>
           <div className="grid items-center justify-items-center gap-x-4 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
             <Fade
+              direction="up"
               triggerOnce
               className="grid items-center justify-items-center gap-x-4 gap-y-16"
             >

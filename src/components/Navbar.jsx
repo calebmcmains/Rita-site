@@ -3,12 +3,13 @@ export default function Navbar({ isOpen, toggleMenu }) {
   return (
     <>
       <header className="sticky w-full bg-[rgba(250,250,250,1)] px-4">
-        <div className="text-primary-chocolate  mx-auto flex max-w-screen-2xl items-center">
+        <div className="mx-auto  flex max-w-screen-2xl items-center text-primary-chocolate">
           <div className="z-50">
             <a href={`/`}>
               <span className="font-sans2 text-5xl font-semibold">rk</span>
             </a>
           </div>
+
           <nav
             className={`absolute left-0 top-0 ml-auto w-full self-start bg-[rgba(250,250,250,.9)] pr-4 pt-8 uppercase backdrop-blur transition-all duration-300 sm:translate-x-0 sm:transition-none 
             ${
