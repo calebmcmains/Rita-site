@@ -163,29 +163,49 @@ function WhatImAbout() {
                   engagement, and optimization.
                 </p>
               </div>
-              <div className="flex w-5/6 flex-col justify-start ">
-                <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-primary-chocolate">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="h-36 w-36 stroke-neutral-soft-white"
-                  >
-                    <path
-                      strokeLinecap="square"
-                      strokeLinejoin="square"
-                      d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
-                    />
-                  </svg>
+              <a
+                rel="noreferrer"
+                href="https://www.pinterest.com/ritankibaki/"
+                target="_blank"
+              >
+                <div className="flex w-5/6 flex-col justify-start ">
+                  <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-primary-chocolate">
+                    {/* <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="h-36 w-36 stroke-neutral-soft-white"
+                    >
+                      <path
+                        strokeLinecap="square"
+                        strokeLinejoin="square"
+                        d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
+                      />
+                    </svg> */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="h-36 w-36 stroke-neutral-soft-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="mb-2 text-xl font-bold uppercase">Fun</h3>
+                  <p className="">
+                    Take a look at what design styles and trends I am totally
+                    loving right now!!!🤩✨🤎
+                  </p>
                 </div>
-                <h3 className="mb-2 text-xl font-bold uppercase">Fun</h3>
-                <p className="">
-                  Take a look at what design styles and trends I am totally
-                  loving right now!!!🤩✨🤎
-                </p>
-              </div>
+              </a>
             </Fade>
           </div>
         </div>
