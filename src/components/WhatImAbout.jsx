@@ -8,7 +8,7 @@ function WhatImAbout() {
           <h2 className="mb-20 text-center font-serif text-3xl font-semibold lowercase">
             Here&apos;s what i&apos;m all about
           </h2>
-          <div className="grid items-center justify-items-center gap-x-4 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid items-start justify-items-center gap-x-4 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
             <Fade
               direction="up"
               triggerOnce
@@ -35,8 +35,10 @@ function WhatImAbout() {
                   Brand Management
                 </h3>
                 <p className="">
-                  Incidunt dolorum reiciendis nemo minus libero aperiam
-                  recusandae harum voluptate eius adipisci?
+                  Brand management is like crafting a brand&apos;s personality
+                  and claiming your own slice of uniqueness. From logo to vibe,
+                  it is about guiding you to a place where the world knows
+                  exactly who you are and loves you for it! 🌏
                 </p>
               </div>
               <div className="flex w-5/6 flex-col justify-start ">
@@ -60,8 +62,11 @@ function WhatImAbout() {
                   Project Management
                 </h3>
                 <p className="">
-                  Incidunt dolorum reiciendis nemo minus libero aperiam
-                  recusandae harum voluptate eius adipisci?
+                  Project management is the art of orchestrating tasks,
+                  combining success with a unique plan, and ensuring your
+                  project wins 📌. Working together form start to completion,
+                  project management leads you to a place where your goals
+                  become a reality.
                 </p>
               </div>
               <div className="flex w-5/6 flex-col justify-start ">
@@ -83,8 +88,10 @@ function WhatImAbout() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold uppercase">Web Design</h3>
                 <p className="">
-                  Incidunt dolorum reiciendis nemo minus libero aperiam
-                  recusandae harum voluptate eius adipisci?
+                  Web design is the symphony of creating digital perfection,
+                  weaving success with a unique blueprint, and sharing your
+                  passion. From concept to launch, web design guides you to a
+                  place where your online goals come to life! 🖥
                 </p>
               </div>
 
@@ -122,8 +129,11 @@ function WhatImAbout() {
                   Social Media
                 </h3>
                 <p className="">
-                  Incidunt dolorum reiciendis nemo minus libero aperiam
-                  recusandae harum voluptate eius adipisci?
+                  Knowing what kind of content should you be sharing, or how
+                  often should you be posting and where is so vital 🙌! Creating
+                  customized media plans that increase brand awareness,
+                  engagement and optimization to take your brand from better to
+                  best.
                 </p>
               </div>
               <div className="flex w-5/6 flex-col justify-start ">
@@ -147,8 +157,10 @@ function WhatImAbout() {
                   Email Marketing
                 </h3>
                 <p className="">
-                  Incidunt dolorum reiciendis nemo minus libero aperiam
-                  recusandae harum voluptate eius adipisci?
+                  Mastering the art of email marketing is the key to mass
+                  connection. Crafting customized email plans becomes the
+                  compass, steering your brand towards heightened awareness📈,
+                  engagement, and optimization.
                 </p>
               </div>
               <div className="flex w-5/6 flex-col justify-start ">
@@ -170,8 +182,8 @@ function WhatImAbout() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold uppercase">Fun</h3>
                 <p className="">
-                  Incidunt dolorum reiciendis nemo minus libero aperiam
-                  recusandae harum voluptate eius adipisci?
+                  Take a look at what design styles and trends I am totally
+                  loving right now!!!🤩✨🤎
                 </p>
               </div>
             </Fade>

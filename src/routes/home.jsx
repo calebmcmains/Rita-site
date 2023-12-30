@@ -5,7 +5,7 @@ import ImRita from "../components/ImRita";
 import WhatImAbout from "../components/WhatImAbout";
 
 import { HelmetProvider } from "react-helmet-async";
-import Favs from "../components/Favs";
+// import Favs from "../components/Favs";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
             <Hero />
             <ImRita />
             <WhatImAbout />
-            <Favs />
+            {/* <Favs /> */}
           </main>
 
           <Footer />
