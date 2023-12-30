@@ -163,12 +163,12 @@ function WhatImAbout() {
                   engagement, and optimization.
                 </p>
               </div>
-              <a
-                rel="noreferrer"
-                href="https://www.pinterest.com/ritankibaki/"
-                target="_blank"
-              >
-                <div className="flex w-5/6 flex-col justify-start ">
+              <div className="flex w-5/6 flex-col justify-start ">
+                <a
+                  rel="noreferrer"
+                  href="https://www.pinterest.com/ritankibaki/"
+                  target="_blank"
+                >
                   <div className=" mb-8 flex h-72 w-full items-center justify-center rounded-2xl bg-primary-chocolate">
                     {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -204,8 +204,8 @@ function WhatImAbout() {
                     Take a look at what design styles and trends I am totally
                     loving right now!!!🤩✨🤎
                   </p>
-                </div>
-              </a>
+                </a>
+              </div>
             </Fade>
           </div>
         </div>
