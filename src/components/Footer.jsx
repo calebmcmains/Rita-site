@@ -30,8 +30,8 @@ function Footer() {
         ></script>
         <script async src="//www.instagram.com/embed.js"></script>
       </Helmet>
-      <Fade direction="up" triggerOnce>
-        <footer className="bg-primary-chocolate py-36">
+      <footer className="bg-primary-chocolate py-36">
+        <Fade direction="up" triggerOnce>
           <div className="mx-auto px-8 2xl:container">
             <h2 className="mb-10 text-center font-sans2 text-4xl font-semibold lowercase text-neutral-soft-white sm:text-5xl xl:-mb-8">
               Connect!
@@ -80,8 +80,8 @@ function Footer() {
               </div>
             </div>
           </div>
-        </footer>
-      </Fade>
+        </Fade>
+      </footer>
     </>
   );
 }
